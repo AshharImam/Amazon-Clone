@@ -1,11 +1,31 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { auth } from "firebase";
 
 import "./Login.css";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  const signin = (e) => {
+    e.preventDefault();
+
+    // firebase login
+  };
+
+  const register = (e) => {
+    e.preventDefault();
+    auth
+      .createUserWithEmailAndPassword(email, password)
+      .then((auth) => {
+        console.log(auth);
+      })
+      .catch((e) => {
+        alert(e);
+      });
+    // firebase register
+  };
 
   return (
     <div className="login">
@@ -31,7 +51,11 @@ const Login = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button onClick={signin} className="login__signInButton">
+          <button
+            onClick={signin}
+            type="submit"
+            className="login__signInButton"
+          >
             Sign In
           </button>
         </form>
@@ -40,7 +64,7 @@ const Login = () => {
           Sale. Please see our Provacy Notice, our Cookies Notice and our
           Internet-Based Ads Notice.
         </p>
-        <button className="login__registerButton">
+        <button onClick={register} className="login__registerButton">
           Create your Amazon Account
         </button>
       </div>
