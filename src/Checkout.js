@@ -1,5 +1,5 @@
 import React from "react";
-import FlipMove from "react-flip-move";
+
 
 import "./Checkout.css";
 import CheckoutProduct from "./CheckoutProduct";
@@ -21,7 +21,6 @@ const Checkout = () => {
           <h3>Hello, {user?.email}</h3>
           <h2 className="checkout__title">Your shopping Basket</h2>
         </div>
-        <FlipMove>
           {basket.map((item) => (
             <CheckoutProduct
               id={item.id}
@@ -31,7 +30,6 @@ const Checkout = () => {
               rating={item.rating}
             />
           ))}
-        </FlipMove>
         {/* BasketItem */}
         {/* BasketItem */}
         {/* BasketItem */}
