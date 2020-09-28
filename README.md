@@ -1,6 +1,6 @@
 👉👉👉It is a practice project.
 
-I made an [Amazon](https://www.amazon.com) clone. ❤
+I made an ####[Amazon](https://www.amazon.com) clone. ❤
 
 This project is made with [⚛React Libray](https://reactjs.org/)
 
