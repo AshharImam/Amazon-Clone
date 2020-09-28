@@ -2,7 +2,7 @@ It is a practice project.
 
 I made an [Amazon](https://www.amazon.com) clone.
 
-This project is made with :+1:React Libray
+This project is made with :U+269B:React Libray
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
