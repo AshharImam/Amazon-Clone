@@ -1,3 +1,9 @@
+👉👉👉It is a practice project.
+
+I made an [Amazon](https://www.amazon.com) clone. ❤
+
+This project is made with [⚛React Libray](https://reactjs.org/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
