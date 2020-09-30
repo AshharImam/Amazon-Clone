@@ -11,8 +11,6 @@ const Subtotal = () => {
   const history = useHistory();
   const [{ basket }] = useStateValue();
 
-  const total = basket.reduce((price, item) => price + item.price, 0);
-
   return (
     <div className="subtotal">
       <CurrencyFormat
