@@ -130,7 +130,7 @@ const Payment = () => {
               <CardElement onChange={handleChange} />
               <div className="payment__priceDContainer">
                 <CurrencyFormat
-                  renderText={(value) => <h3>Total Order: {value}</h3>}
+                  renderText={(value) => <h4>Order Total: {value}</h4>}
                   decimalScale={2}
                   value={getBasketTotal(basket)}
                   displayType="text"
