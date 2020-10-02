@@ -22,9 +22,9 @@ const Home = () => {
           <Product
             id="49538094"
             title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
+            price={339.0}
             rating={4}
-            image="https://www.cramptonandmoore.co.uk/media/catalog/product/cache/1/image/1000x700/9df78eab33525d08d6e5fb8d27136e95/k/m/kmx754rd_2.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SL1500_.jpg"
           />
         </div>
         <div className="home__row">
